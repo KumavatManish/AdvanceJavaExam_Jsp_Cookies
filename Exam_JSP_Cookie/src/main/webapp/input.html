@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+	
+		<form action="setCookie.jsp" method="get" class="form">
+			<div class="user-name">
+				<label class="control-label">Enter Name</label>
+				<input type="text" name="txtUname" placeholder="User Name"
+				class="form-control"> 
+			</div>
+			<div class="choice">
+			<br>
+			   <P>Select Color Option:</P>
+			   <input type="radio" name="color" value="RED"> RED
+			   <br> 	
+			   <input type="radio" name="color" value="YELLOW"> YELLOW 	
+			    <br>
+			   <input type="radio" name="color" value="BLUE"> BLUE 	
+		   </div>
+			<br>
+			<input type="submit" class="btn btn-block btn-success"
+			  value="Submit" name="btnSubmit">
+		</form>
+		
+	</div>
+</body>
+</html>
